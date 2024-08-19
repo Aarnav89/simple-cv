@@ -278,6 +278,44 @@ p{
 
 }
 
+.projects h2{
+
+    text-transform: uppercase;
+    color: #167266;
+    font-weight: 600;
+}
+
+
+
+
+.projects ul{
+
+    display: grid;
+    grid-template-columns: repeat(0,1fr);
+    margin-top: 20px;
+
+
+}
+
+.projects ul li{
+
+    list-style: none;
+    color: #333;
+    font-weight: 500;
+    margin: 12px 0;
+
+
+
+}
+
+.projects ul li .icon{
+    
+    color: #0af6d7;
+    font-size: 18px;
+    width: 35px;
+
+}
+
 @media(max-width : 1000px){
 
     .container{
